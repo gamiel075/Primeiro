@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family= Roboto & display=swap') ;
+
+
+
+
+:root {
+
+
+    --Cor-principal: #000000;
+    --Cor-secndaria: #FFFFFF;
+      
+
+
+}
+
+
+* {
+
+margin: 0 0 0;
+padding: 0;
+
+
+}
+
+body {
+
+height: 1500px;
+box-sizing: border-box;
+
+
+}
+
+
+
+header {
+
+   background-color: var(--Cor-principal);
+   padding: 40px;
+   box-shadow: 0 0 1rem black;
+   bottom: 0;
+    
+}
+
+.topo  {
+
+
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+     /* margin-top: 50px;  isto serve apenas para aumentar a margem */
+
+
+}
+
+nav {
+
+position: absolute;
+width: 940px;
+text-align: end;
+right: 5px;
+/* right: 10px;    através desse comando você joga tudo para a direita       */
+ /*   left significa esqueda e rigth por sua vez significa direita*/   
+ /* a posição absolut faz com que o elemento torne mutável para nós que estamos editando */
+
+}
+
+
+nav li {
+
+
+display: inline;
+margin: 0 0 0 15px;
+
+
+
+
+}
+
+
+nav a {
+     
+
+    
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+     width: 100px;;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* nesse caso acima eu alterei diretamente no botão, para criar um espaço  melhor entre eles  */
+}
+
+
+.sobre {
+
+
+    margin: 10% 20%;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+
+
+
+.sobre_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+h1 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+
+}
+
+
+p {
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.sobre2 {
+
+
+justify-content: center;
+position: absolute;
+margin-top: 1300px ;
+width: 915px;
+text-align: center;
+font-size: 30px;
+align-items: center;
+
+
+}
+
+iframe {
+
+
+margin-top: 50px;
+width: 600px;
+height: 400px;
+}
+
+    
+footer {
+
+    bottom: 0 ;
+    margin-top: 1000px;
+    
+    }
+    
+        
+    
+    
+    
+    .rodápe {
+    
+         text-align: center;
+        background-color: var(--Cor-principal);
+        color: var(--Cor-secndaria);
+        padding: 30px;
+    }
+    

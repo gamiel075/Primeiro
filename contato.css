@@ -1,0 +1,157 @@
+
+
+:root {
+
+
+    --Cor-principal: #000000;
+    --Cor-secndaria: #FFFFFF;
+      
+
+
+}
+
+
+* {
+
+margin: 0 0 0;
+padding: 0;
+
+
+}
+
+body {
+
+height: 700px;
+box-sizing: border-box;
+
+
+}
+
+
+
+header {
+
+   background-color: var(--Cor-principal);
+   padding: 40px;
+   box-shadow: 0 0 1rem black;
+   bottom: 0;
+    
+}
+
+.topo  {
+
+
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+     /* margin-top: 50px;  isto serve apenas para aumentar a margem */
+
+
+}
+
+nav {
+
+position: absolute;
+width: 940px;
+text-align: end;
+right: 5px;
+/* right: 10px;    através desse comando você joga tudo para a direita       */
+ /*   left significa esqueda e rigth por sua vez significa direita*/   
+ /* a posição absolut faz com que o elemento torne mutável para nós que estamos editando */
+
+}
+
+
+nav li {
+
+
+display: inline;
+margin: 0 0 0 15px;
+
+
+
+
+}
+
+
+nav a {
+     
+
+    
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 20px;
+    text-decoration: none;
+     width: 100px;;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    /* nesse caso acima eu alterei diretamente no botão, para criar um espaço  melhor entre eles  */
+}
+
+
+.meio {
+
+display: flex;
+
+margin: 10% 20%;
+margin-top: 150px;
+margin-left: 100px;
+/* aqui eu useu estas propriedades para deixar no eixo horizontal central no canto esquedo podendo eu
+colocar uma imagem no canto direito */
+
+
+}
+
+.meio_2{
+
+width: 815px;
+display: flex;
+flex-direction: column;
+bottom: 0;
+gap: 0,00005px;
+
+/* observe que a propriedade width cria como se fosse
+uma caixa invísivel dentro do texto limitando o espaço e sua estrutura visual*/
+
+
+}
+
+
+h1{
+
+font-size: 80px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.links{
+
+display: flex;
+flex-direction: column;
+margin-top:30px;
+gap: 50px;
+
+/* aqui eu usei a tag margin top para distanciar do resto da seção e 
+ A PROPRIEDADE gap por sua vez para aumentar a distancia ENTRE os elementos*/
+
+
+}
+
+
+.botao{
+width: 250px;
+padding: 20px;
+border: 2px solid black;
+text-align: center;
+text-decoration: none;
+color: #000000;
+font-size: 20px;
+border-radius: 10px;
+
+}
+
+.imagem {
+
+margin-left: 310px;
+}
