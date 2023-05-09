@@ -21,8 +21,9 @@ padding: 0;
 
 body {
 
-height: 700px;
+height: 100px;
 box-sizing: border-box;
+background-color: #000000;
 
 
 }
@@ -95,7 +96,7 @@ nav a {
 display: flex;
 
 margin: 10% 20%;
-margin-top: 150px;
+margin-top: 70px;
 margin-left: 100px;
 /* aqui eu useu estas propriedades para deixar no eixo horizontal central no canto esquedo podendo eu
 colocar uma imagem no canto direito */
@@ -110,6 +111,7 @@ display: flex;
 flex-direction: column;
 bottom: 0;
 gap: 0,00005px;
+color: #FFFFFF;
 
 /* observe que a propriedade width cria como se fosse
 uma caixa invísivel dentro do texto limitando o espaço e sua estrutura visual*/
@@ -122,6 +124,7 @@ h1{
 
 font-size: 80px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: #FFFFFF;
 
 }
 
@@ -142,14 +145,26 @@ gap: 50px;
 .botao{
 width: 250px;
 padding: 20px;
-border: 2px solid black;
+border: 2px solid white;
 text-align: center;
 text-decoration: none;
-color: #000000;
+color: white;
 font-size: 20px;
 border-radius: 10px;
 
 }
+
+.botao:hover {
+
+font-size: 26px;
+
+}
+
+
+
+
+
+
 
 .imagem {
 

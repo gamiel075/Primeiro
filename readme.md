@@ -1,8 +1,9 @@
-Este é o meu primeiro projeto produzido depois de semanas de aulas teŕocas+praícas de html e css
-este documento contém informações prévias sobre o "primeiro".
+Esta é uma versão um pouco mais atualizada, do Primeiro V1. Uma espécie de protótipo de 'quase alta fidelidade' eu peço perdão por prováveis inconsistencias que o autor 
+perceberá mas saiba que os próximos projetos lançados serão mais organizados em estrutura e desing. 
 
-Aqui podemos ver uma espécie protótipo de Baixa qualidade de um site feito com css e html puro.Na verdade é o meu primeiro projeto o qual me orgulho muito.Esta é a versão,novas versões subiram para o github. Agradeço desde já.
+Houve um bug, o Primeiro V1 eu fiz em meu Nootbook com sistema operacional Linux, e enviei ao GitHub,porém ao baixar em meu Pc, houve desalinhamento no View port obrigando eu fazer certas alterações no Flex Box e estrutura do projeto.Pode ser que futuramente novas versões possam vir.
 
-Gabriel
-07 de Maio de 2023.
+O proxímo Projeto será melhor!
+
+GABRIEL FERREIRA BEZERRA 09/05/20023
 

@@ -27,6 +27,8 @@ body {
 
 height: 1500px;
 box-sizing: border-box;
+background-color: #000000;
+color: #FFFFFF;
 
 
 }
@@ -100,7 +102,8 @@ nav a {
     margin: 10% 20%;
     display: flex; 
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+
 
 
 }
@@ -122,6 +125,7 @@ h1 {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 45px;
+    color: yellow;
 
 }
 
@@ -134,14 +138,13 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 .sobre2 {
 
-
 justify-content: center;
 position: absolute;
 margin-top: 1300px ;
 width: 915px;
 text-align: center;
 font-size: 30px;
-align-items: center;
+color: yellow;
 
 
 }
